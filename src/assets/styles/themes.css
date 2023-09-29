@@ -13,6 +13,8 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	--primary-color: #fb0430;
+	--white-color: #fff;
+	--black-color: #000;
 }
 
 
@@ -45,4 +47,14 @@
 
 .add-primary-color {
 	color: var(--primary-color);
+}
+
+.light-class {
+	background: var(--white-color);
+	color: var(--black-color);
+}
+
+.dark-class {
+	background: var(--black-color);
+	color: var(--white-color);
 }
