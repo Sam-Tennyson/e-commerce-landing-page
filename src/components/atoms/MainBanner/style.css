@@ -1,0 +1,38 @@
+.main-banner .main-banner-child {
+    color: #000;
+}
+
+.main-banner h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.main-banner h1 .lets{
+    background-color:var(--primary-color);
+    font-size:100px;
+}
+
+.main-banner h1 .unique{
+    color:var(--primary-color);
+}
+
+.main-banner h1 .asion {
+    color:var(--primary-color)
+}
+
+.main-banner h3 {
+    font-weight: 800;
+}
+
+.main-banner h3 .lets{
+    background-color:var(--primary-color);
+    font-size:50px;
+}
+
+.main-banner h3 .unique{
+    color:var(--primary-color);
+}
+
+.main-banner h3 .asion {
+    color:var(--primary-color)
+}

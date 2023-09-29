@@ -1,0 +1,17 @@
+.arrival-img img {
+    height: 10rem;
+}
+
+.arrival-head {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.arrival-amount {
+    color: #000;
+    font-weight: 800;
+}
+
+.arrival-add-cart {
+    background: var(--primary-color);
+}

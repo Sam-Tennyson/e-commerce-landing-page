@@ -1,0 +1,12 @@
+.featured {
+    width: 18rem;
+}
+.featured img{
+    height: 14rem;
+    width: 14rem;
+}
+
+.featured h5 {
+    color: var(--primary-color);
+    font-weight: 800;
+}

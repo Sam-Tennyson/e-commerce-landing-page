@@ -1,0 +1,13 @@
+.new-collection {
+    font-size: 70px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.collection-img img {
+    height: 35rem;
+}
+
+.shop-now {
+    background-color: var(--primary-color);
+}

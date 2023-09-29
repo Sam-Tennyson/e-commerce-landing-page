@@ -1,0 +1,48 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	/* color: rgba(255, 255, 255, 0.87); */
+	/* background-color: #242424; */
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	--primary-color: #fb0430;
+}
+
+
+.back {
+	background: radial-gradient(200% 188% at top, white 50%, var(--primary-color) 50.1%);
+}
+
+.my-card {
+	background: radial-gradient(200% 188% at bottom, white 50%, var(--primary-color) 50.1%);
+	width: 22rem;
+	min-height: 16rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.my-card:hover {
+	transition: transform 1s;
+	transform: scale(1.1);
+	cursor: zoom-in;
+	background: radial-gradient(200% 188% at top, white 50%, var(--primary-color) 50.1%);
+}
+
+.shadoww {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.add-cart {
+    background: var(--primary-color);
+}
+
+.add-primary-color {
+	color: var(--primary-color);
+}
